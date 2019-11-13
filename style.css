@@ -1,0 +1,183 @@
+body{
+    font-family: Times New Roman, Times, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #186895;
+}
+
+/*La partie titre et tête*/
+
+h1{
+   text-align: center;
+}
+
+/*suppression de tout les barres lien*/
+
+a{
+ text-decoration: none;
+}
+
+/*apparition des menus*/
+
+.fix{
+ position: fixed;
+ left: 8px;
+ top: 80px;
+}
+
+.niveau1 ul{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    margin: 0px;
+    padding: 0px;
+    border: 0.5px, solid #534d01;
+    border-bottom: 1px solid black;
+}
+
+.niveau2 ul{
+    display: none;
+    position: absolute;
+    left: 136px;
+    padding-left: 1px;
+    top: -3px;
+    margin: 3px;
+    padding: 0px;
+    border: 0.5px, solid #534d01;
+    border-bottom: 1px solid black;
+}
+
+.niveau3 ul{
+    display: none;
+    position: absolute;
+    left: 136px;
+    padding-left: 1px;
+    top: -42px;
+    margin: 3px;
+    padding: 0px;
+    border: 0.5px, solid #534d01;
+    border-bottom: 1px solid black;
+}
+
+
+.niveau1{
+    display:contents;
+}
+
+li{
+    list-style-type: none;
+    position: relative;
+    width: 135px;
+    height: 35px;
+    background-color: #dbf0f9;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+    line-height: 35px;
+}
+
+/*apparition sur souri*/
+
+li:hover{
+    background-color: #746e29;
+}
+
+li:hover ul.niveau2, li li:hover ul.niveau3{
+    display: block;
+}
+
+li li:hover ul.niveau3, li li li:hover ul.niveau4{
+    display: block;
+ }
+ 
+
+.menuf li a{
+    text-decoration: none;
+}
+
+ul a, il a{
+    color: black;
+}
+
+li.plus{
+    background-position: right;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+}
+
+/*transition*/
+
+nav a{
+  color: black;
+  background-color: #dbf0f9;
+  transition: all 1s ease-out;
+}
+
+nav a:hover, nav a:focus{
+  color: #c32022;
+  background-color: #746e29;
+}
+
+
+/*espacement*/
+
+
+
+/*ajout des couleurs sur les liens*/
+
+li a:hover{
+    color: #3e1ba4;
+}
+
+/*Le corps de la page*/
+
+.corpsdepage{
+ background-color: #FFF;
+ margin-left: auto;
+ margin-right: auto;
+ width: 800px;
+ height: 900px;
+}
+
+/*Le contenu total*/
+
+h2{
+ text-align: center;
+}
+
+/*les asides*/
+
+.aside1{
+ display: block;
+ position: absolute;
+ background-color: #dbf0f9;
+ border: 1px dotted #07072b;
+ padding: 5px;
+ right: 273px;
+ margin: 0px;
+ width: 250px;
+ top: 350px;
+}
+
+  .aside11{
+    display: block;
+    margin: 1px;
+    margin-left: 15px;
+    padding: 4px;
+    background-color: #99cc99;
+    display: inline;
+    margin-left: 75px;
+  }
+  
+  .paraaside1{
+   text-align: center;
+  }
+
+/*le bas de la page*/
+
+.basdepage{
+ background-color: #0b1943;
+}
+
+/*W2naCK3fP3xyS37*/
